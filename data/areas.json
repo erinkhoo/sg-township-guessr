@@ -1,0 +1,827 @@
+[
+ {
+  "id": "wc",
+  "name": "Western Water Catchment",
+  "region": "West",
+  "cx": 179.6,
+  "cy": 176.6,
+  "bbox": [
+   73.7,
+   78.9,
+   219.5,
+   219.2
+  ],
+  "area": 23744.3,
+  "gap": 94.6
+ },
+ {
+  "id": "ne",
+  "name": "North-Eastern Islands",
+  "region": "North-East",
+  "cx": 926.6,
+  "cy": 159.9,
+  "bbox": [
+   662.3,
+   67.4,
+   331.7,
+   211.2
+  ],
+  "area": 22888.2,
+  "gap": 149.7
+ },
+ {
+  "id": "ts",
+  "name": "Tuas",
+  "region": "West",
+  "cx": 62.1,
+  "cy": 374.6,
+  "bbox": [
+   6,
+   246.7,
+   126.9,
+   292.4
+  ],
+  "area": 16227.5,
+  "gap": 97.8
+ },
+ {
+  "id": "wi",
+  "name": "Western Islands",
+  "region": "West",
+  "cx": 143.9,
+  "cy": 452.6,
+  "bbox": [
+   104.3,
+   360.8,
+   302.5,
+   283.8
+  ],
+  "area": 15575.4,
+  "gap": 113
+ },
+ {
+  "id": "ch",
+  "name": "Changi",
+  "region": "East",
+  "cx": 808.4,
+  "cy": 251.7,
+  "bbox": [
+   739.8,
+   163.6,
+   141.6,
+   172.4
+  ],
+  "area": 14119.7,
+  "gap": 75
+ },
+ {
+  "id": "cc",
+  "name": "Central Water Catchment",
+  "region": "North",
+  "cx": 399.5,
+  "cy": 197.6,
+  "bbox": [
+   345.7,
+   117.5,
+   133.8,
+   164.6
+  ],
+  "area": 12653.8,
+  "gap": 56
+ },
+ {
+  "id": "bd",
+  "name": "Bedok",
+  "region": "East",
+  "cx": 665.4,
+  "cy": 307.3,
+  "bbox": [
+   600.5,
+   256,
+   138,
+   95.7
+  ],
+  "area": 7398.2,
+  "gap": 69.6
+ },
+ {
+  "id": "qt",
+  "name": "Queenstown",
+  "region": "Central",
+  "cx": 376.7,
+  "cy": 370.8,
+  "bbox": [
+   301.8,
+   317.1,
+   135.8,
+   130.4
+  ],
+  "area": 7383,
+  "gap": 66.6
+ },
+ {
+  "id": "ys",
+  "name": "Yishun",
+  "region": "North",
+  "cx": 485.5,
+  "cy": 122.4,
+  "bbox": [
+   415.5,
+   57.3,
+   125.7,
+   107.9
+  ],
+  "area": 7109,
+  "gap": 59
+ },
+ {
+  "id": "tm",
+  "name": "Tampines",
+  "region": "East",
+  "cx": 707.7,
+  "cy": 252,
+  "bbox": [
+   659.4,
+   200.3,
+   122.5,
+   126.2
+  ],
+  "area": 7080.8,
+  "gap": 50.1
+ },
+ {
+  "id": "je",
+  "name": "Jurong East",
+  "region": "West",
+  "cx": 270.3,
+  "cy": 323.4,
+  "bbox": [
+   219.1,
+   245.7,
+   97.1,
+   116.9
+  ],
+  "area": 6083.3,
+  "gap": 53.4
+ },
+ {
+  "id": "sk",
+  "name": "Sungei Kadut",
+  "region": "North",
+  "cx": 315.9,
+  "cy": 113.1,
+  "bbox": [
+   274.7,
+   55.9,
+   76.6,
+   117.6
+  ],
+  "area": 5987.5,
+  "gap": 75.1
+ },
+ {
+  "id": "bt",
+  "name": "Bukit Timah",
+  "region": "Central",
+  "cx": 384.6,
+  "cy": 293.7,
+  "bbox": [
+   328.3,
+   254,
+   113.4,
+   87.2
+  ],
+  "area": 5960.8,
+  "gap": 63.5
+ },
+ {
+  "id": "lk",
+  "name": "Lim Chu Kang",
+  "region": "North",
+  "cx": 239.5,
+  "cy": 84.1,
+  "bbox": [
+   184.7,
+   45.7,
+   103.5,
+   82.3
+  ],
+  "area": 5959.6,
+  "gap": 81.7
+ },
+ {
+  "id": "pr",
+  "name": "Pasir Ris",
+  "region": "East",
+  "cx": 708.1,
+  "cy": 201.9,
+  "bbox": [
+   637.6,
+   148.3,
+   134.4,
+   99.2
+  ],
+  "area": 5380.5,
+  "gap": 50.1
+ },
+ {
+  "id": "jw",
+  "name": "Jurong West",
+  "region": "West",
+  "cx": 212.7,
+  "cy": 269,
+  "bbox": [
+   147.7,
+   223.7,
+   108.9,
+   83.4
+  ],
+  "area": 4999.4,
+  "gap": 47
+ },
+ {
+  "id": "bm",
+  "name": "Bukit Merah",
+  "region": "Central",
+  "cx": 447.2,
+  "cy": 402.2,
+  "bbox": [
+   402,
+   367,
+   108.2,
+   80.9
+  ],
+  "area": 4919.7,
+  "gap": 43.8
+ },
+ {
+  "id": "am",
+  "name": "Ang Mo Kio",
+  "region": "North-East",
+  "cx": 490.6,
+  "cy": 190.9,
+  "bbox": [
+   437.9,
+   155.4,
+   90.4,
+   86.4
+  ],
+  "area": 4748.7,
+  "gap": 52.6
+ },
+ {
+  "id": "hg",
+  "name": "Hougang",
+  "region": "North-East",
+  "cx": 586.8,
+  "cy": 220.4,
+  "bbox": [
+   553.3,
+   173.8,
+   75.5,
+   112.9
+  ],
+  "area": 4742.5,
+  "gap": 50.6
+ },
+ {
+  "id": "wd",
+  "name": "Woodlands",
+  "region": "North",
+  "cx": 382.5,
+  "cy": 67.1,
+  "bbox": [
+   330.8,
+   23.7,
+   96.8,
+   83
+  ],
+  "area": 4636.1,
+  "gap": 57.9
+ },
+ {
+  "id": "sb",
+  "name": "Sembawang",
+  "region": "North",
+  "cx": 433.5,
+  "cy": 39.6,
+  "bbox": [
+   386.8,
+   6,
+   114.7,
+   72.9
+  ],
+  "area": 4299.4,
+  "gap": 55.5
+ },
+ {
+  "id": "pn",
+  "name": "Pioneer",
+  "region": "West",
+  "cx": 143,
+  "cy": 319.7,
+  "bbox": [
+   96.3,
+   291.8,
+   95.6,
+   86.8
+  ],
+  "area": 4156.6,
+  "gap": 64.6
+ },
+ {
+  "id": "md",
+  "name": "Mandai",
+  "region": "North",
+  "cx": 433.2,
+  "cy": 95.1,
+  "bbox": [
+   344.8,
+   60.1,
+   113.8,
+   70.3
+  ],
+  "area": 4003.3,
+  "gap": 55.5
+ },
+ {
+  "id": "pl",
+  "name": "Paya Lebar",
+  "region": "East",
+  "cx": 642.4,
+  "cy": 234.8,
+  "bbox": [
+   595,
+   186.8,
+   78.5,
+   89.4
+  ],
+  "area": 3979,
+  "gap": 57.4
+ },
+ {
+  "id": "bk",
+  "name": "Bukit Batok",
+  "region": "West",
+  "cx": 308.6,
+  "cy": 241,
+  "bbox": [
+   273.8,
+   192.3,
+   69.2,
+   96.7
+  ],
+  "area": 3790.3,
+  "gap": 48.3
+ },
+ {
+  "id": "sl",
+  "name": "Seletar",
+  "region": "North-East",
+  "cx": 562,
+  "cy": 120.7,
+  "bbox": [
+   515.8,
+   85.2,
+   88,
+   64.6
+  ],
+  "area": 3691.8,
+  "gap": 62.4
+ },
+ {
+  "id": "se",
+  "name": "Sengkang",
+  "region": "North-East",
+  "cx": 598.7,
+  "cy": 171.2,
+  "bbox": [
+   510.8,
+   147.8,
+   133.3,
+   52.3
+  ],
+  "area": 3610.7,
+  "gap": 44.9
+ },
+ {
+  "id": "sg",
+  "name": "Serangoon",
+  "region": "North-East",
+  "cx": 540,
+  "cy": 245.9,
+  "bbox": [
+   520,
+   168.9,
+   57.7,
+   102.9
+  ],
+  "area": 3437.4,
+  "gap": 35.7
+ },
+ {
+  "id": "gl",
+  "name": "Geylang",
+  "region": "Central",
+  "cx": 590,
+  "cy": 311.3,
+  "bbox": [
+   544.3,
+   278,
+   77.7,
+   68.1
+  ],
+  "area": 3285.3,
+  "gap": 41.5
+ },
+ {
+  "id": "cl",
+  "name": "Clementi",
+  "region": "West",
+  "cx": 323.7,
+  "cy": 322.8,
+  "bbox": [
+   296.1,
+   270.9,
+   57.7,
+   101.6
+  ],
+  "area": 3240.5,
+  "gap": 53.4
+ },
+ {
+  "id": "pg",
+  "name": "Punggol",
+  "region": "North-East",
+  "cx": 629.5,
+  "cy": 138.5,
+  "bbox": [
+   581.3,
+   106.7,
+   90.7,
+   72.8
+  ],
+  "area": 3193.4,
+  "gap": 44.9
+ },
+ {
+  "id": "bp",
+  "name": "Bukit Panjang",
+  "region": "West",
+  "cx": 344.7,
+  "cy": 208.9,
+  "bbox": [
+   311.8,
+   169.5,
+   74.8,
+   100.2
+  ],
+  "area": 3072.9,
+  "gap": 48.3
+ },
+ {
+  "id": "nv",
+  "name": "Novena",
+  "region": "Central",
+  "cx": 462.6,
+  "cy": 293.5,
+  "bbox": [
+   431,
+   270.1,
+   100.2,
+   63.7
+  ],
+  "area": 3053.4,
+  "gap": 51
+ },
+ {
+  "id": "kl",
+  "name": "Kallang",
+  "region": "Central",
+  "cx": 536.3,
+  "cy": 325.8,
+  "bbox": [
+   494.3,
+   293.1,
+   84.3,
+   74.2
+  ],
+  "area": 2919.6,
+  "gap": 27.8
+ },
+ {
+  "id": "bl",
+  "name": "Boon Lay",
+  "region": "West",
+  "cx": 207.5,
+  "cy": 315.7,
+  "bbox": [
+   160.3,
+   290.6,
+   81.8,
+   66.7
+  ],
+  "area": 2824.3,
+  "gap": 47
+ },
+ {
+  "id": "sm",
+  "name": "Simpang",
+  "region": "North",
+  "cx": 503.8,
+  "cy": 55.8,
+  "bbox": [
+   471.3,
+   26.8,
+   81,
+   73.8
+  ],
+  "area": 2816.4,
+  "gap": 69.1
+ },
+ {
+  "id": "tp",
+  "name": "Toa Payoh",
+  "region": "Central",
+  "cx": 528.5,
+  "cy": 279.7,
+  "bbox": [
+   477.3,
+   263.1,
+   108.2,
+   35.4
+  ],
+  "area": 2785.2,
+  "gap": 35.7
+ },
+ {
+  "id": "bs",
+  "name": "Bishan",
+  "region": "Central",
+  "cx": 490,
+  "cy": 243.5,
+  "bbox": [
+   441.6,
+   216.2,
+   85.7,
+   53.2
+  ],
+  "area": 2588,
+  "gap": 50.1
+ },
+ {
+  "id": "tn",
+  "name": "Tanglin",
+  "region": "Central",
+  "cx": 432.9,
+  "cy": 335,
+  "bbox": [
+   408.3,
+   307.7,
+   67.7,
+   64.2
+  ],
+  "area": 2570.7,
+  "gap": 46.1
+ },
+ {
+  "id": "th",
+  "name": "Tengah",
+  "region": "West",
+  "cx": 260.8,
+  "cy": 225.2,
+  "bbox": [
+   211.8,
+   193.8,
+   86.4,
+   67.4
+  ],
+  "area": 2504.3,
+  "gap": 50.3
+ },
+ {
+  "id": "si",
+  "name": "Southern Islands",
+  "region": "Central",
+  "cx": 475.3,
+  "cy": 465.7,
+  "bbox": [
+   417.4,
+   436.9,
+   114.7,
+   97.9
+  ],
+  "area": 2409.2,
+  "gap": 69.4
+ },
+ {
+  "id": "mp",
+  "name": "Marine Parade",
+  "region": "Central",
+  "cx": 600,
+  "cy": 351.6,
+  "bbox": [
+   558,
+   328.1,
+   90.2,
+   58.3
+  ],
+  "area": 2087.4,
+  "gap": 41.5
+ },
+ {
+  "id": "ck",
+  "name": "Choa Chu Kang",
+  "region": "West",
+  "cx": 298.4,
+  "cy": 186.1,
+  "bbox": [
+   265.8,
+   139.5,
+   58.5,
+   74.6
+  ],
+  "area": 2082.5,
+  "gap": 51.6
+ },
+ {
+  "id": "dt",
+  "name": "Downtown Core",
+  "region": "Central",
+  "cx": 517.6,
+  "cy": 375.4,
+  "bbox": [
+   488.3,
+   346.5,
+   56.7,
+   72.9
+  ],
+  "area": 1732.8,
+  "gap": 21.4
+ },
+ {
+  "id": "nt",
+  "name": "Newton",
+  "region": "Central",
+  "cx": 485.6,
+  "cy": 339.5,
+  "bbox": [
+   458.3,
+   319.9,
+   44.9,
+   36.3
+  ],
+  "area": 705.3,
+  "gap": 14.7
+ },
+ {
+  "id": "cb",
+  "name": "Changi Bay",
+  "region": "East",
+  "cx": 854.9,
+  "cy": 310.6,
+  "bbox": [
+   843.8,
+   231.5,
+   141.3,
+   142.5
+  ],
+  "area": 665.3,
+  "gap": 75
+ },
+ {
+  "id": "me",
+  "name": "Marina East",
+  "region": "Central",
+  "cx": 550.3,
+  "cy": 378.6,
+  "bbox": [
+   535.5,
+   364.6,
+   34.1,
+   30.1
+  ],
+  "area": 626.6,
+  "gap": 21.1
+ },
+ {
+  "id": "ms",
+  "name": "Marina South",
+  "region": "Central",
+  "cx": 538.1,
+  "cy": 395.8,
+  "bbox": [
+   523.2,
+   378.2,
+   28.8,
+   32.8
+  ],
+  "area": 555,
+  "gap": 21.1
+ },
+ {
+  "id": "rc",
+  "name": "Rochor",
+  "region": "Central",
+  "cx": 513.9,
+  "cy": 342.2,
+  "bbox": [
+   496.5,
+   327.5,
+   34.6,
+   35.3
+  ],
+  "area": 540,
+  "gap": 26
+ },
+ {
+  "id": "rv",
+  "name": "River Valley",
+  "region": "Central",
+  "cx": 476.9,
+  "cy": 363,
+  "bbox": [
+   451.3,
+   345.9,
+   41,
+   28
+  ],
+  "area": 500.8,
+  "gap": 12.2
+ },
+ {
+  "id": "ot",
+  "name": "Outram",
+  "region": "Central",
+  "cx": 488.7,
+  "cy": 388.1,
+  "bbox": [
+   474.8,
+   377.5,
+   30.5,
+   30.8
+  ],
+  "area": 464.8,
+  "gap": 13.1
+ },
+ {
+  "id": "sv",
+  "name": "Straits View",
+  "region": "Central",
+  "cx": 524.2,
+  "cy": 413.3,
+  "bbox": [
+   509.2,
+   400.4,
+   30.4,
+   27.3
+  ],
+  "area": 382.5,
+  "gap": 22.3
+ },
+ {
+  "id": "or",
+  "name": "Orchard",
+  "region": "Central",
+  "cx": 476.2,
+  "cy": 350.8,
+  "bbox": [
+   450,
+   335.4,
+   42.1,
+   23.6
+  ],
+  "area": 327.6,
+  "gap": 12.2
+ },
+ {
+  "id": "sr",
+  "name": "Singapore River",
+  "region": "Central",
+  "cx": 491,
+  "cy": 375.2,
+  "bbox": [
+   465.7,
+   363,
+   41.9,
+   22.2
+  ],
+  "area": 326.6,
+  "gap": 13.1
+ },
+ {
+  "id": "mu",
+  "name": "Museum",
+  "region": "Central",
+  "cx": 499.5,
+  "cy": 363.9,
+  "bbox": [
+   488.3,
+   351.8,
+   22.4,
+   23.9
+  ],
+  "area": 284.3,
+  "gap": 14.1
+ }
+]
