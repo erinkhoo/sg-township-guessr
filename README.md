@@ -27,6 +27,13 @@ distance to the target and nothing else, so two misses let you trilaterate your
 way in. Bearing unlocks on the second miss. When the round resolves, a chord is
 drawn from every click to the truth, labelled in kilometres and compass points.
 
+**Getting it wrong is the fun part.** Three tries, three escalating shouts:
+*Aiyo!* then *Alamak lah!* then *Cannot make it sial!*, thrown onto the map at
+the exact spot you fumbled. Underneath it the game names what you actually hit
+and takes a Singlish swing at the place, so a bad run still teaches you the
+island. Sounds are synthesised at runtime with the Web Audio API rather than
+shipped as files, and there is a mute toggle that survives a reload.
+
 **The city core plate.** Eleven planning areas in the centre are tiny — Museum
 and Straits View are both under a square kilometre. Street directories solve
 this with a magnified inset, so this does too, and it is fully clickable.
@@ -46,11 +53,14 @@ Boundaries come from
 ```
 npm run geo              # regenerate src/data/geo.generated.ts from data/pa.geojson
 ./scripts/fetch-geo.sh   # re-download from data.gov.sg and reprocess (only when URA republishes)
-npm run content          # regenerate src/data/content.ts from data/content.json
+npm run content          # regenerate src/data/content.ts from data/content.json + data/quips.json
 ```
 
+Blurbs and quips live in separate JSON files so the Singlish can be rewritten
+without touching the researched copy, and vice versa.
 `scripts/build-content.mjs` refuses to build if any area is missing copy, if a
-hint contains its own area's name, or if a blurb has an em dash in it.
+hint contains its own area's name, if a blurb has an em dash in it, or if a quip
+carries its own exclamation mark (the game already shouted one).
 
 The projection is verified against published coordinates in `src/lib/geo.test.ts`:
 every area lands inside Singapore, Tuas to Changi measures 30-50 km, and the
@@ -61,7 +71,7 @@ scale bar is checked against the real width of the country.
 ```
 npm install
 npm run dev
-npm test          # 29 tests over the scoring engine and the projection
+npm test          # 35 tests over the scoring engine, projection and reaction copy
 npm run build
 ```
 
@@ -75,6 +85,8 @@ src/
   game/engine.ts          pure reducer: scoring, streaks, tries, grades. No React.
   game/storage.ts         localStorage mastery ledger, records, queue building
   lib/geo.ts              inverse Mercator, haversine, bearings, street-directory grid refs
+  lib/sfx.ts              Web Audio synthesis: no sound files, no network, mute persisted
+  game/reactions.ts       the three-shout ladder
   map/useCamera.ts        pan, wheel zoom, pinch, tap-vs-drag, resize re-framing
   map/MapView.tsx         the plate: land, graticule, probes, chords, inset, furniture
   ui/                     start screen, prompt, hud, reveal card, results sheet

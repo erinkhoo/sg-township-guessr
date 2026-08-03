@@ -1,0 +1,620 @@
+{
+ "Northpoint City": {
+  "lon": 103.835776491468,
+  "lat": 1.42969848626288,
+  "matched": "NORTHPOINT CITY",
+  "address": "930 YISHUN AVENUE 2 NORTHPOINT CITY SINGAPORE 769098"
+ },
+ "Khoo Teck Puat Hospital": {
+  "lon": 103.83857888869,
+  "lat": 1.42408101871819,
+  "matched": "KHOO TECK PUAT HOSPITAL",
+  "address": "90 YISHUN CENTRAL KHOO TECK PUAT HOSPITAL SINGAPORE 768828"
+ },
+ "Sungei Buloh Wetland Reserve": {
+  "lon": 103.732143434175,
+  "lat": 1.44535111253736,
+  "matched": "SUNGEI BULOH WETLAND RESERVE",
+  "address": "301 NEO TIEW CRESCENT SUNGEI BULOH WETLAND RESERVE SINGAPORE 718925"
+ },
+ "Hay Dairies": {
+  "lon": 103.709949889113,
+  "lat": 1.43164569617845,
+  "matched": "HAY DAIRIES",
+  "address": "3 LIM CHU KANG LANE 4 HAY DAIRIES SINGAPORE 718859"
+ },
+ "Bollywood Veggies": {
+  "lon": 103.716666929846,
+  "lat": 1.41836454569877,
+  "matched": "BOLLYWOOD VEGGIES",
+  "address": "100 NEO TIEW ROAD BOLLYWOOD VEGGIES SINGAPORE 719026"
+ },
+ "Causeway Point": {
+  "lon": 103.785981524253,
+  "lat": 1.4360700650803,
+  "matched": "CAUSEWAY POINT",
+  "address": "1 WOODLANDS SQUARE CAUSEWAY POINT SINGAPORE 738099"
+ },
+ "Admiralty Park": {
+  "lon": 103.797278484555,
+  "lat": 1.45479671015688,
+  "matched": "ADMIRALTY INDUSTRIAL PARK",
+  "address": "25 WOODLANDS INDUSTRIAL PARK E1 ADMIRALTY INDUSTRIAL PARK SINGAPORE 757743"
+ },
+ "Woodlands Waterfront": {
+  "lon": 103.781617546,
+  "lat": 1.45380370281178,
+  "matched": "WOODLANDS WATERFRONT PARK",
+  "address": "WOODLANDS WATERFRONT PARK"
+ },
+ "Night Safari": {
+  "lon": 103.788323242853,
+  "lat": 1.4052369741867,
+  "matched": "NIGHT SAFARI",
+  "address": "80 MANDAI LAKE ROAD NIGHT SAFARI SINGAPORE 729826"
+ },
+ "TreeTop Walk": {
+  "lon": 103.808925934051,
+  "lat": 1.35748956174067,
+  "matched": "HSBC TREETOP WALK",
+  "address": "ISLAND CLUB ROAD HSBC TREETOP WALK"
+ },
+ "Pulau Semakau": {
+  "lon": 103.775495954792,
+  "lat": 1.20380686241156,
+  "matched": "PULAU SEMAKAU",
+  "address": "PULAU SEMAKAU"
+ },
+ "IMM": {
+  "lon": 103.746894773008,
+  "lat": 1.33487526118006,
+  "matched": "IMM BUILDING",
+  "address": "2 JURONG EAST STREET 21 IMM BUILDING SINGAPORE 609601"
+ },
+ "Jurong Point": {
+  "lon": 103.720537580707,
+  "lat": 1.3350966033197,
+  "matched": "FAMILY POINT CLINIC AND SURGERY TAMAN JURONG SHOPPING CENTRE",
+  "address": "399 YUNG SHENG ROAD FAMILY POINT CLINIC AND SURGERY TAMAN JURONG SHOPPING CENTRE SINGAPORE 610399"
+ },
+ "Lot One": {
+  "lon": 103.745238868238,
+  "lat": 1.38506992325619,
+  "matched": "SHAW THEATRES LOT ONE",
+  "address": "21 CHOA CHU KANG AVENUE 4 SHAW THEATRES LOT ONE SINGAPORE 689812"
+ },
+ "Beauty World Centre": {
+  "lon": 103.776539385406,
+  "lat": 1.34241264188642,
+  "matched": "BEAUTY WORLD CENTRE",
+  "address": "144 UPPER BUKIT TIMAH ROAD BEAUTY WORLD CENTRE SINGAPORE 588177"
+ },
+ "Bedok Reservoir": {
+  "lon": 103.913536944229,
+  "lat": 1.33353806122657,
+  "matched": "ALJUNIED-HOUGANG TOWN COUNCIL (BEDOK RESERVOIR OFFICE)",
+  "address": "136 BEDOK RESERVOIR ROAD ALJUNIED-HOUGANG TOWN COUNCIL (BEDOK RESERVOIR OFFICE) SINGAPORE 470136"
+ },
+ "Downtown East": {
+  "lon": 103.955444758145,
+  "lat": 1.37912717878008,
+  "matched": "COSTA SANDS RESORT (DOWNTOWN EAST)",
+  "address": "1 PASIR RIS CLOSE COSTA SANDS RESORT (DOWNTOWN EAST) SINGAPORE 519599"
+ },
+ "Geylang Serai Market": {
+  "lon": 103.897977411392,
+  "lat": 1.31672515005311,
+  "matched": "GEYLANG SERAI MARKET",
+  "address": "1 GEYLANG SERAI GEYLANG SERAI MARKET SINGAPORE 402001"
+ },
+ "Ang Mo Kio Hub": {
+  "lon": 103.84847796594,
+  "lat": 1.36938922690344,
+  "matched": "AMK HUB",
+  "address": "53 ANG MO KIO AVENUE 3 AMK HUB SINGAPORE 569933"
+ },
+ "Tan Tock Seng Hospital": {
+  "lon": 103.847939766022,
+  "lat": 1.31967333509975,
+  "matched": "DEPARTMENT OF CLINICAL EPIDEMIOLOGY (TAN TOCK SENG HOSPITAL)",
+  "address": "142 MOULMEIN ROAD DEPARTMENT OF CLINICAL EPIDEMIOLOGY (TAN TOCK SENG HOSPITAL) SINGAPORE 308087"
+ },
+ "Hougang Mall": {
+  "lon": 103.893774066625,
+  "lat": 1.37249118635803,
+  "matched": "HOUGANG MALL",
+  "address": "90 HOUGANG AVENUE 10 HOUGANG MALL SINGAPORE 538766"
+ },
+ "Seletar Aerospace Park": {
+  "lon": 103.863931577282,
+  "lat": 1.41997550938849,
+  "matched": "FOODGLE HUB PTE. LTD. JTC AVIATION TWO @ SELETAR AEROSPACE PARK",
+  "address": "690 WEST CAMP ROAD FOODGLE HUB PTE. LTD. JTC AVIATION TWO @ SELETAR AEROSPACE PARK SINGAPORE 797523"
+ },
+ "Sentosa": {
+  "lon": 103.829490666279,
+  "lat": 1.24981227625908,
+  "matched": "SENTOSA",
+  "address": "SENTOSA"
+ },
+ "Singapore General Hospital": {
+  "lon": 103.835249345493,
+  "lat": 1.2793345730706,
+  "matched": "SGH BLK 4 (TAXI STAND)",
+  "address": "SGH BLK 4 (TAXI STAND)"
+ },
+ "Raffles Place": {
+  "lon": 103.851559731294,
+  "lat": 1.2820837651092,
+  "matched": "ASCOTT SINGAPORE RAFFLES PLACE",
+  "address": "2 FINLAYSON GREEN ASCOTT SINGAPORE RAFFLES PLACE SINGAPORE 049247"
+ },
+ "Marina Bay Golf Course": {
+  "lon": 103.87334648081,
+  "lat": 1.28862313676484,
+  "matched": "MARINA BAY GOLF COURSE",
+  "address": "MARINA BAY GOLF COURSE"
+ },
+ "Sim Lim Square": {
+  "lon": 103.853037814067,
+  "lat": 1.3030242605718,
+  "matched": "SIM LIM SQUARE",
+  "address": "1 ROCHOR CANAL ROAD SIM LIM SQUARE SINGAPORE 188504"
+ },
+ "People's Park Complex": {
+  "lon": 103.842519972666,
+  "lat": 1.28413397178419,
+  "matched": "PEOPLE'S PARK COMPLEX",
+  "address": "1 PARK ROAD PEOPLE'S PARK COMPLEX SINGAPORE 059108"
+ },
+ "Istana": {
+  "lon": 103.843263772261,
+  "lat": 1.30706679716097,
+  "matched": "ISTANA",
+  "address": "ORCHARD ROAD ISTANA SINGAPORE 238823"
+ },
+ "National Museum of Singapore": {
+  "lon": 103.848510920277,
+  "lat": 1.29671990674531,
+  "matched": "NATIONAL MUSEUM OF SINGAPORE",
+  "address": "93 STAMFORD ROAD NATIONAL MUSEUM OF SINGAPORE SINGAPORE 178897"
+ },
+ "Sembawang Hot Spring Park": {
+  "lon": 103.822607665415,
+  "lat": 1.43430995368439,
+  "matched": "SEMBAWANG HOT SPRING PARK",
+  "address": "SEMBAWANG HOT SPRING PARK"
+ },
+ "Singapore Zoo": {
+  "lon": 103.789598292943,
+  "lat": 1.40559439269495,
+  "matched": "SINGAPORE ZOO",
+  "address": "80 MANDAI LAKE ROAD SINGAPORE ZOO SINGAPORE 729826"
+ },
+ "Bird Paradise": {
+  "lon": 103.779681533437,
+  "lat": 1.4062111631995,
+  "matched": "BIRD PARADISE",
+  "address": "20 MANDAI LAKE ROAD BIRD PARADISE SINGAPORE 729825"
+ },
+ "River Wonders": {
+  "lon": 103.792461180002,
+  "lat": 1.4036616947661,
+  "matched": "RIVER WONDERS",
+  "address": "80 MANDAI LAKE ROAD RIVER WONDERS SINGAPORE 729826"
+ },
+ "MacRitchie Reservoir": {
+  "lon": 103.832309100568,
+  "lat": 1.34199237151166,
+  "matched": "H.S. OF MACRITCHIE RESERVOIR (HISTORIC SITE)",
+  "address": "H.S. OF MACRITCHIE RESERVOIR (HISTORIC SITE)"
+ },
+ "Tuas Port": {
+  "lon": 103.614819826282,
+  "lat": 1.25672865665199,
+  "matched": "TUAS PORT BOULEVARD",
+  "address": "TUAS PORT BOULEVARD"
+ },
+ "Jurong Island": {
+  "lon": 103.696745192489,
+  "lat": 1.26658663618574,
+  "matched": "JURONG ISLAND",
+  "address": "JURONG ISLAND"
+ },
+ "Pulau Bukom": {
+  "lon": 103.76808523403,
+  "lat": 1.23253674056523,
+  "matched": "PULAU BUKOM",
+  "address": "PULAU BUKOM"
+ },
+ "Jurong Port": {
+  "lon": 103.722807330979,
+  "lat": 1.30745950637121,
+  "matched": "J1 (JURONG PORT)",
+  "address": "37 JURONG PORT ROAD J1 (JURONG PORT) SINGAPORE 619110"
+ },
+ "Westgate": {
+  "lon": 103.742766484424,
+  "lat": 1.33415767556867,
+  "matched": "WESTGATE",
+  "address": "3 GATEWAY DRIVE WESTGATE SINGAPORE 608532"
+ },
+ "JEM": {
+  "lon": 103.743278742341,
+  "lat": 1.33329334473462,
+  "matched": "JEM",
+  "address": "50 JURONG GATEWAY ROAD JEM SINGAPORE 608549"
+ },
+ "Jurong Lake Gardens": {
+  "lon": 103.727299462043,
+  "lat": 1.33935956208673,
+  "matched": "PASSION WAVE @ JURONG LAKE GARDENS",
+  "address": "100 YUAN CHING ROAD PASSION WAVE @ JURONG LAKE GARDENS SINGAPORE 618662"
+ },
+ "Chinese Garden": {
+  "lon": 103.732596738363,
+  "lat": 1.34235282081401,
+  "matched": "CHINESE GARDEN MRT STATION (EW25)",
+  "address": "151 BOON LAY WAY CHINESE GARDEN MRT STATION (EW25) SINGAPORE 609959"
+ },
+ "Ng Teng Fong General Hospital": {
+  "lon": 103.745448362928,
+  "lat": 1.33360619131534,
+  "matched": "NG TENG FONG GENERAL HOSPITAL",
+  "address": "1 JURONG EAST STREET 21 NG TENG FONG GENERAL HOSPITAL SINGAPORE 609606"
+ },
+ "Little Guilin": {
+  "lon": 103.754221365413,
+  "lat": 1.35587476915519,
+  "matched": "LITTLE GUILIN",
+  "address": "BUKIT BATOK EAST AVENUE 5 LITTLE GUILIN"
+ },
+ "Clementi Mall": {
+  "lon": 103.764423054189,
+  "lat": 1.31489619639366,
+  "matched": "THE CLEMENTI MALL",
+  "address": "3155 COMMONWEALTH AVENUE WEST THE CLEMENTI MALL SINGAPORE 129588"
+ },
+ "Junction 10": {
+  "lon": 103.760167883439,
+  "lat": 1.38033681049385,
+  "matched": "JUNCTION 10",
+  "address": "1 WOODLANDS ROAD JUNCTION 10 SINGAPORE 677899"
+ },
+ "one-north": {
+  "lon": 103.789068096096,
+  "lat": 1.3034460248358,
+  "matched": "ONE-NORTH EDEN",
+  "address": "10 SLIM BARRACKS RISE ONE-NORTH EDEN SINGAPORE 138493"
+ },
+ "Tanglin Halt": {
+  "lon": 103.795387142787,
+  "lat": 1.30163123909487,
+  "matched": "TANGLIN HALT CASCADIA",
+  "address": "75 COMMONWEALTH DRIVE TANGLIN HALT CASCADIA SINGAPORE 140075"
+ },
+ "Bukit Timah Nature Reserve": {
+  "lon": 103.778073451976,
+  "lat": 1.35443054655389,
+  "matched": "BUKIT TIMAH NATURE RESERVE",
+  "address": "BUKIT TIMAH NATURE RESERVE"
+ },
+ "Changi Airport": {
+  "lon": 103.982913693484,
+  "lat": 1.34580556425439,
+  "matched": "CHANGI AIRPORT AIRCRAFT FLYOVER",
+  "address": "CHANGI AIRPORT AIRCRAFT FLYOVER"
+ },
+ "Changi Prison": {
+  "lon": 103.972425880278,
+  "lat": 1.35509141020075,
+  "matched": "CHANGI PRISON COMPLEX",
+  "address": "986F UPPER CHANGI ROAD NORTH CHANGI PRISON COMPLEX SINGAPORE 506908"
+ },
+ "Changi Village": {
+  "lon": 103.987980185347,
+  "lat": 1.38870594064706,
+  "matched": "CHANGI VILLAGE",
+  "address": "CHANGI VILLAGE"
+ },
+ "Our Tampines Hub": {
+  "lon": 103.940381104547,
+  "lat": 1.35354740485205,
+  "matched": "HAWKER CENTRE @ OUR TAMPINES HUB",
+  "address": "1 TAMPINES WALK HAWKER CENTRE @ OUR TAMPINES HUB SINGAPORE 528523"
+ },
+ "Tampines Mall": {
+  "lon": 103.944698751072,
+  "lat": 1.35252737278519,
+  "matched": "TAMPINES MALL",
+  "address": "4 TAMPINES CENTRAL 5 TAMPINES MALL SINGAPORE 529510"
+ },
+ "Wild Wild Wet": {
+  "lon": 103.954271099815,
+  "lat": 1.37737766684088,
+  "matched": "WILD WILD WET",
+  "address": "1 PASIR RIS CLOSE WILD WILD WET SINGAPORE 519599"
+ },
+ "White Sands": {
+  "lon": 103.960861814678,
+  "lat": 1.36563610941695,
+  "matched": "LEARNING LEAP PTE LTD (WHITE SANDS PRIMARY SCHOOL)",
+  "address": "2 PASIR RIS STREET 11 LEARNING LEAP PTE LTD (WHITE SANDS PRIMARY SCHOOL) SINGAPORE 519075"
+ },
+ "Paya Lebar Air Base": {
+  "lon": 103.900280919651,
+  "lat": 1.34363607860616,
+  "matched": "PAYA LEBAR AIR BASE",
+  "address": "506 AIRPORT ROAD PAYA LEBAR AIR BASE SINGAPORE 534395"
+ },
+ "Parkway Parade": {
+  "lon": 103.905279491524,
+  "lat": 1.30106975506311,
+  "matched": "PARKWAY PARADE",
+  "address": "80 MARINE PARADE ROAD PARKWAY PARADE SINGAPORE 449269"
+ },
+ "National Stadium": {
+  "lon": 103.873562593499,
+  "lat": 1.30469818126318,
+  "matched": "NATIONAL STADIUM",
+  "address": "1 STADIUM DRIVE NATIONAL STADIUM SINGAPORE 397629"
+ },
+ "Junction 8": {
+  "lon": 103.848760473211,
+  "lat": 1.3504812534505,
+  "matched": "JUNCTION 8",
+  "address": "9 BISHAN PLACE JUNCTION 8 SINGAPORE 579837"
+ },
+ "Bishan Park": {
+  "lon": 103.83629822663,
+  "lat": 1.36517069591469,
+  "matched": "BISHAN - ANG MO KIO PARK (POND GARDENS)",
+  "address": "BISHAN - ANG MO KIO PARK (POND GARDENS)"
+ },
+ "United Square": {
+  "lon": 103.843611443038,
+  "lat": 1.31719450988559,
+  "matched": "UNITED SQUARE",
+  "address": "101 THOMSON ROAD UNITED SQUARE SINGAPORE 307591"
+ },
+ "NEX": {
+  "lon": 103.872296143862,
+  "lat": 1.35076935257845,
+  "matched": "NEX",
+  "address": "23 SERANGOON CENTRAL NEX SINGAPORE 556083"
+ },
+ "Chomp Chomp Food Centre": {
+  "lon": 103.86652701738,
+  "lat": 1.36423252476886,
+  "matched": "CHOMP CHOMP FOOD CENTRE",
+  "address": "20 KENSINGTON PARK ROAD CHOMP CHOMP FOOD CENTRE SINGAPORE 557269"
+ },
+ "Compass One": {
+  "lon": 103.89507054384,
+  "lat": 1.39205314156706,
+  "matched": "COMPASS ONE",
+  "address": "1 SENGKANG SQUARE COMPASS ONE SINGAPORE 545078"
+ },
+ "Waterway Point": {
+  "lon": 103.90198817171,
+  "lat": 1.40653611690554,
+  "matched": "SHAW THEATRES WATERWAY POINT",
+  "address": "83 PUNGGOL CENTRAL SHAW THEATRES WATERWAY POINT SINGAPORE 828761"
+ },
+ "Seletar Airport": {
+  "lon": 103.864268418882,
+  "lat": 1.41871093517463,
+  "matched": "SELETAR AIRPORT",
+  "address": "556 WEST CAMP ROAD SELETAR AIRPORT SINGAPORE 797794"
+ },
+ "Pulau Ubin": {
+  "lon": 103.97591782415,
+  "lat": 1.41250901343404,
+  "matched": "PULAU UBIN AND CHEK JAWA",
+  "address": "PULAU UBIN AND CHEK JAWA"
+ },
+ "Pulau Tekong": {
+  "lon": 104.03707746787,
+  "lat": 1.43892402664476,
+  "matched": "PULAU TEKONG",
+  "address": "PULAU TEKONG"
+ },
+ "Chek Jawa": {
+  "lon": 103.99188953363,
+  "lat": 1.4082877253455,
+  "matched": "CHEK JAWA (EASTERN TIP)",
+  "address": "PULAU UBIN CHEK JAWA (EASTERN TIP)"
+ },
+ "St John's Island": {
+  "lon": 103.848090143042,
+  "lat": 1.21918759470123,
+  "matched": "PULAU SAKIJANG BENDERA (SAINT JOHN'S ISLAND)",
+  "address": "PULAU SAKIJANG BENDERA (SAINT JOHN'S ISLAND)"
+ },
+ "Kusu Island": {
+  "lon": 103.858963177054,
+  "lat": 1.22372052121409,
+  "matched": "KUSU ISLAND WAITING AREA NEXT TO MAIN JETTY",
+  "address": "KUSU ISLAND WAITING AREA NEXT TO MAIN JETTY"
+ },
+ "Tiong Bahru Market": {
+  "lon": 103.832181546885,
+  "lat": 1.28478559810371,
+  "matched": "TIONG BAHRU MARKET",
+  "address": "30 SENG POH ROAD TIONG BAHRU MARKET SINGAPORE 168898"
+ },
+ "ABC Brickworks Food Centre": {
+  "lon": 103.808131274161,
+  "lat": 1.28688297261475,
+  "matched": "ABC BRICKWORKS MARKET & FOOD CENTRE",
+  "address": "6 JALAN BUKIT MERAH ABC BRICKWORKS MARKET & FOOD CENTRE SINGAPORE 150006"
+ },
+ "Singapore Botanic Gardens": {
+  "lon": 103.813180039922,
+  "lat": 1.31347941910133,
+  "matched": "SINGAPORE BOTANIC GARDENS",
+  "address": "1 CLUNY ROAD SINGAPORE BOTANIC GARDENS SINGAPORE 259569"
+ },
+ "Dempsey Hill": {
+  "lon": 103.81012569095,
+  "lat": 1.30405680930687,
+  "matched": "HARRY'S DEMPSEY HILL DEMPSEY CLUSTER (TANGLIN VILLAGE)",
+  "address": "11 DEMPSEY ROAD HARRY'S DEMPSEY HILL DEMPSEY CLUSTER (TANGLIN VILLAGE) SINGAPORE 249673"
+ },
+ "Lau Pa Sat": {
+  "lon": 103.850408357959,
+  "lat": 1.28059421956056,
+  "matched": "LAU PA SAT",
+  "address": "18 RAFFLES QUAY LAU PA SAT SINGAPORE 048582"
+ },
+ "Marina Bay Sands": {
+  "lon": 103.860809048956,
+  "lat": 1.28345419690844,
+  "matched": "MARINA BAY SANDS",
+  "address": "1 BAYFRONT AVENUE MARINA BAY SANDS SINGAPORE 018971"
+ },
+ "Newton Food Centre": {
+  "lon": 103.839569728721,
+  "lat": 1.31191552031274,
+  "matched": "NEWTON FOOD CENTRE",
+  "address": "500 CLEMENCEAU AVENUE NORTH NEWTON FOOD CENTRE SINGAPORE 229495"
+ },
+ "Gardens by the Bay": {
+  "lon": 103.864656599639,
+  "lat": 1.28458858866312,
+  "matched": "GARDENS BY THE BAY",
+  "address": "18 MARINA GARDENS DRIVE GARDENS BY THE BAY SINGAPORE 018953"
+ },
+ "Marina Barrage": {
+  "lon": 103.870469615929,
+  "lat": 1.27990573489749,
+  "matched": "MARINA BARRAGE",
+  "address": "8 MARINA GARDENS DRIVE MARINA BARRAGE SINGAPORE 018951"
+ },
+ "Marina South Pier": {
+  "lon": 103.863149073604,
+  "lat": 1.27029077767613,
+  "matched": "MARINA SOUTH PIER",
+  "address": "31 MARINA COASTAL DRIVE MARINA SOUTH PIER SINGAPORE 018988"
+ },
+ "Bugis Junction": {
+  "lon": 103.855411173758,
+  "lat": 1.29911287475873,
+  "matched": "BUGIS JUNCTION",
+  "address": "200 VICTORIA STREET BUGIS JUNCTION SINGAPORE 188021"
+ },
+ "Great World City": {
+  "lon": 103.832022146655,
+  "lat": 1.29342272650003,
+  "matched": "GREAT WORLD CITY",
+  "address": "1 KIM SENG PROMENADE GREAT WORLD CITY SINGAPORE 237994"
+ },
+ "Chinatown Complex": {
+  "lon": 103.843238518071,
+  "lat": 1.2822749605271,
+  "matched": "CHINATOWN COMPLEX",
+  "address": "335 SMITH STREET CHINATOWN COMPLEX SINGAPORE 050335"
+ },
+ "Outram Park MRT Station": {
+  "lon": 103.840052100136,
+  "lat": 1.2802415328084,
+  "matched": "OUTRAM PARK MRT STATION",
+  "address": "300 EU TONG SEN STREET OUTRAM PARK MRT STATION SINGAPORE 059816"
+ },
+ "ION Orchard": {
+  "lon": 103.832032328465,
+  "lat": 1.30397974144505,
+  "matched": "ION ORCHARD",
+  "address": "2 ORCHARD TURN ION ORCHARD SINGAPORE 238801"
+ },
+ "Takashimaya": {
+  "lon": 103.834749804244,
+  "lat": 1.30230881694097,
+  "matched": "TAKASHIMAYA SHOPPING CENTRE",
+  "address": "391 ORCHARD ROAD TAKASHIMAYA SHOPPING CENTRE SINGAPORE 238872"
+ },
+ "Boat Quay": {
+  "lon": 103.849342751277,
+  "lat": 1.28773643709619,
+  "matched": "BOAT QUAY",
+  "address": "BOAT QUAY"
+ },
+ "Clarke Quay": {
+  "lon": 103.844227535027,
+  "lat": 1.29187814532067,
+  "matched": "CLARKE QUAY",
+  "address": "CLARKE QUAY"
+ },
+ "Robertson Quay": {
+  "lon": 103.838613292488,
+  "lat": 1.29004703709958,
+  "matched": "INTERCONTINENTAL SINGAPORE ROBERTSON QUAY",
+  "address": "1 NANSON ROAD INTERCONTINENTAL SINGAPORE ROBERTSON QUAY SINGAPORE 238909"
+ },
+ "Fort Canning Park": {
+  "lon": 103.847681827019,
+  "lat": 1.292516286813,
+  "matched": "FORT CANNING PARK",
+  "address": "FORT CANNING PARK"
+ },
+ "Sembawang Park": {
+  "lon": 103.819003000717,
+  "lat": 1.44872376873523,
+  "matched": "PARK AT SEMBAWANG ALLEY",
+  "address": "PARK AT SEMBAWANG ALLEY"
+ },
+ "Jurong Hill": {
+  "lon": 103.708300761612,
+  "lat": 1.31994228024295,
+  "matched": "JURONG HILL",
+  "address": "JURONG HILL"
+ },
+ "Hillion Mall": {
+  "lon": 103.762842789877,
+  "lat": 1.37843100827586,
+  "matched": "HILLION MALL",
+  "address": "17 PETIR ROAD HILLION MALL SINGAPORE 678278"
+ },
+ "Yew Tee MRT Station": {
+  "lon": 103.747405150236,
+  "lat": 1.39753506936297,
+  "matched": "YEW TEE MRT STATION (NS5)",
+  "address": "61 CHOA CHU KANG DRIVE YEW TEE MRT STATION (NS5) SINGAPORE 689715"
+ },
+ "Lazarus Island": {
+  "lon": 103.859261258906,
+  "lat": 1.2205499805679,
+  "matched": "PULAU SAKIJANG PELEPAH (LAZARUS ISLAND)",
+  "address": "PULAU SAKIJANG PELEPAH (LAZARUS ISLAND)"
+ },
+ "Tekka Centre": {
+  "lon": 103.849956033902,
+  "lat": 1.30624722914968,
+  "matched": "ZHUJIAO CENTRE (TEKKA MARKET)",
+  "address": "662 BUFFALO ROAD ZHUJIAO CENTRE (TEKKA MARKET) SINGAPORE 210662"
+ },
+ "Leonie Hill": {
+  "lon": 103.831860350575,
+  "lat": 1.29794866053609,
+  "matched": "LEONIE HILL",
+  "address": "LEONIE HILL"
+ },
+ "Pearl's Hill City Park": {
+  "lon": 103.838651770829,
+  "lat": 1.28451929408639,
+  "matched": "PEARL'S HILL CITY PARK",
+  "address": "PEARL'S HILL CITY PARK"
+ },
+ "Emerald Hill": {
+  "lon": 103.83923580687,
+  "lat": 1.30505900921312,
+  "matched": "111 EMERALD HILL",
+  "address": "111 EMERALD HILL ROAD 111 EMERALD HILL SINGAPORE 229391"
+ },
+ "313@Somerset": {
+  "lon": 103.838360664485,
+  "lat": 1.30101436404056,
+  "matched": "313 @ SOMERSET",
+  "address": "313 ORCHARD ROAD 313 @ SOMERSET SINGAPORE 238895"
+ }
+}

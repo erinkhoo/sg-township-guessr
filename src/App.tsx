@@ -1,9 +1,21 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ALL_IDS, AREAS, BY_ID, REGION_BBOX, VIEW_H, VIEW_W, type Area } from './data/areas'
 import { createGame, currentId, elapsedMs, reduce, stats } from './game/engine'
+import { shoutFor } from './game/reactions'
 import { MODE_LABEL, buildQueue, commitRun, load, resetSave, type Save } from './game/storage'
 import type { Action, Config, GameState } from './game/types'
 import { viewBearing, viewDistanceKm } from './lib/geo'
+import {
+  isMuted,
+  playFail,
+  playFinish,
+  playHit,
+  playHitLate,
+  playMiss,
+  playMiss2,
+  playTick,
+  setMuted,
+} from './lib/sfx'
 import { MapView, type MapHandle } from './map/MapView'
 import type { Box } from './map/useCamera'
 import { Hud } from './ui/Hud'
@@ -21,8 +33,10 @@ export default function App() {
   const [game, setGame] = useState<GameState | null>(null)
   const [inspect, setInspect] = useState<string | null>(null)
   const [now, setNow] = useState(() => Date.now())
+  const [quiet, setQuiet] = useState(isMuted)
   const mapRef = useRef<MapHandle>(null)
   const committed = useRef(false)
+  const heard = useRef({ misses: 0, card: '', over: false })
 
   const act = useCallback((a: Action) => setGame((g) => (g ? reduce(g, a) : g)), [])
 
@@ -50,6 +64,36 @@ export default function App() {
     }
   }, [game])
 
+  /**
+   * Sound is driven off state transitions rather than fired from the click
+   * handler, so it stays correct no matter what produced the change: a click, a
+   * keyboard give-up, or the reducer resolving a round on its own.
+   */
+  useEffect(() => {
+    if (!game) {
+      heard.current = { misses: 0, card: '', over: false }
+      return
+    }
+    const prev = heard.current
+    const cardId = game.card?.id ?? ''
+
+    if (cardId && cardId !== prev.card) {
+      // a revealed round lands its card and its third miss together; the card wins
+      if (game.card!.outcome === 'first') playHit(game.streak - 1)
+      else if (game.card!.outcome === 'retry') playHitLate()
+      else playFail()
+    } else if (game.misses.length > prev.misses) {
+      if (game.misses.length >= 2) playMiss2()
+      else playMiss()
+    }
+
+    heard.current = { misses: game.misses.length, card: cardId, over: game.status === 'over' }
+  }, [game])
+
+  useEffect(() => {
+    if (game?.status === 'over' && !game.card && game.config.mode !== 'learn') playFinish()
+  }, [game?.status, game?.card, game?.config.mode])
+
   // --- flow -----------------------------------------------------------------
   const start = useCallback(
     (config: Config) => {
@@ -74,7 +118,10 @@ export default function App() {
       if (!game) return
 
       if (game.config.mode === 'learn') {
-        if (id) setInspect(id)
+        if (id) {
+          setInspect(id)
+          playTick()
+        }
         return
       }
       // Open water and out-of-scope regions give nothing away, so they cost nothing.
@@ -123,6 +170,24 @@ export default function App() {
   const inspectArea = inspect ? BY_ID[inspect] : null
   const learn = mode === 'learn'
 
+  // The map shout fires on every miss including the third, which lands at the
+  // same moment as the reveal card: "Cannot make it sial!" is the punchline and
+  // skipping it because the card arrived would throw away the best one.
+  const lastMiss = game?.misses[game.misses.length - 1]
+  const missedArea = lastMiss?.id ? BY_ID[lastMiss.id] : undefined
+  const shout = lastMiss ? shoutFor(game!.misses.length) : null
+  // The rail version steps aside once the card is up, since the card says it too.
+  const reaction =
+    shout && missedArea && !game?.card
+      ? { shout, name: missedArea.name, quip: missedArea.quip }
+      : null
+
+  const toggleSound = () => {
+    const next = !quiet
+    setMuted(next)
+    setQuiet(next)
+  }
+
   return (
     <div className="app" data-screen={!game ? 'menu' : finished ? 'results' : 'play'}>
       <div className="stage">
@@ -133,6 +198,7 @@ export default function App() {
           results={game?.results ?? {}}
           misses={game?.misses ?? []}
           revealId={game?.card?.id ?? inspect}
+          shout={shout}
           interactive={!!game && !finished}
           labelAll={learn}
           onPick={onPick}
@@ -141,7 +207,13 @@ export default function App() {
 
       {!game && (
         <div className="overlay overlay-menu">
-          <StartScreen save={save} onStart={start} onReset={() => setSave(resetSave())} />
+          <StartScreen
+            save={save}
+            quiet={quiet}
+            onStart={start}
+            onReset={() => setSave(resetSave())}
+            onToggleSound={toggleSound}
+          />
         </div>
       )}
 
@@ -151,11 +223,22 @@ export default function App() {
             <button type="button" className="crumb" onClick={toMenu}>
               <span aria-hidden>←</span> <span className="crumb-name">Township Guessr</span>
             </button>
-            <span className="topbar-mode">
-              {MODE_LABEL[game.config.mode]}
-              <span className="dot" />
-              {game.config.scope === 'all' ? 'whole island' : game.config.scope.toLowerCase()}
-            </span>
+            <div className="topbar-right">
+              <span className="topbar-mode">
+                {MODE_LABEL[game.config.mode]}
+                <span className="dot" />
+                {game.config.scope === 'all' ? 'whole island' : game.config.scope.toLowerCase()}
+              </span>
+              <button
+                type="button"
+                className="sound-toggle"
+                onClick={toggleSound}
+                aria-pressed={!quiet}
+                title={quiet ? 'Turn sound on' : 'Turn sound off'}
+              >
+                {quiet ? 'Sound off' : 'Sound on'}
+              </button>
+            </div>
           </header>
 
           <div className="rail">
@@ -175,6 +258,7 @@ export default function App() {
                   tries={game.misses.length}
                   hinted={game.hinted}
                   hint={target?.hint ?? ''}
+                  reaction={reaction}
                   onHint={() => act({ type: 'hint' })}
                   onGiveUp={() => act({ type: 'giveup', now: Date.now() })}
                   frozen={!!game.card}

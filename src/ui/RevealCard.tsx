@@ -2,9 +2,9 @@ import type { Area } from '../data/areas'
 import type { Card } from '../game/types'
 
 const HEADLINE: Record<Card['outcome'], string> = {
-  first: 'Straight away',
-  retry: 'Got there',
-  revealed: 'This one',
+  first: 'Steady lah',
+  retry: 'Got there in the end',
+  revealed: 'Cannot make it sial',
 }
 
 type Props = {

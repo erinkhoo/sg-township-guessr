@@ -19,11 +19,13 @@ const SCOPES: { id: Scope; name: string }[] = [
 
 type Props = {
   save: Save
+  quiet: boolean
   onStart: (c: Config) => void
   onReset: () => void
+  onToggleSound: () => void
 }
 
-export function StartScreen({ save, onStart, onReset }: Props) {
+export function StartScreen({ save, quiet, onStart, onReset, onToggleSound }: Props) {
   const [mode, setMode] = useState<Mode>('classic')
   const [scope, setScope] = useState<Scope>('all')
 
@@ -109,13 +111,18 @@ export function StartScreen({ save, onStart, onReset }: Props) {
         <footer className="start-foot">
           <p>
             Drag to pan, scroll or pinch to zoom. The city core is magnified in the corner plate, the
-            way a street directory would do it.
+            way a street directory would do it. Click wrong and the island will let you know.
           </p>
-          {seen > 0 && (
-            <button type="button" className="linkish" onClick={onReset}>
-              Clear saved progress
+          <div className="start-foot-actions">
+            <button type="button" className="linkish" onClick={onToggleSound}>
+              Sound {quiet ? 'off' : 'on'}
             </button>
-          )}
+            {seen > 0 && (
+              <button type="button" className="linkish" onClick={onReset}>
+                Clear saved progress
+              </button>
+            )}
+          </div>
         </footer>
       </div>
     </div>

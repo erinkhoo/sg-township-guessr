@@ -14,6 +14,8 @@ type Props = {
   misses: Miss[]
   /** drawn with the answer treatment while the reveal card is up */
   revealId?: string | null
+  /** Singlish exclamation to throw at the latest miss, e.g. "Alamak lah!" */
+  shout?: string | null
   interactive: boolean
   labelAll?: boolean
   onPick: (id: string | null, world: { x: number; y: number }) => void
@@ -47,7 +49,7 @@ function stateClass(
 }
 
 export const MapView = forwardRef<MapHandle, Props>(function MapView(
-  { areas, inScope, results, misses, revealId, interactive, labelAll, onPick, onHover },
+  { areas, inScope, results, misses, revealId, shout, interactive, labelAll, onPick, onHover },
   ref,
 ) {
   const [hover, setHover] = useState<string | null>(null)
@@ -256,6 +258,18 @@ export const MapView = forwardRef<MapHandle, Props>(function MapView(
                   </g>
                 )
               })}
+            </g>
+          )}
+
+          {/* the shout, thrown at the exact spot you fumbled */}
+          {lastMiss && shout && (
+            <g className="shout" key={`shout-${misses.length}-${lastMiss.x}`} aria-hidden>
+              <text
+                x={toScreen(cam, lastMiss.x, lastMiss.y).x}
+                y={toScreen(cam, lastMiss.x, lastMiss.y).y - 34}
+              >
+                {shout}
+              </text>
             </g>
           )}
 

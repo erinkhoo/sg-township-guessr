@@ -18,6 +18,7 @@ export type Area = AreaGeo &
   }
 
 const FALLBACK: AreaContent = {
+  quip: '',
   blurb: 'One of Singapore’s 55 URA planning areas.',
   hint: 'Look for it on the outline map.',
   fact: '',

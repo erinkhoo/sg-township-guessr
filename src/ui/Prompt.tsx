@@ -6,12 +6,14 @@ type Props = {
   tries: number
   hinted: boolean
   hint: string
+  /** what the player just hit by mistake, and the abuse it earns them */
+  reaction: { shout: string; name: string; quip: string } | null
   onHint: () => void
   onGiveUp: () => void
   frozen: boolean
 }
 
-export function Prompt({ area, tries, hinted, hint, onHint, onGiveUp, frozen }: Props) {
+export function Prompt({ area, tries, hinted, hint, reaction, onHint, onGiveUp, frozen }: Props) {
   const left = MAX_TRIES - tries
   return (
     <section className="prompt" aria-live="polite">
@@ -31,6 +33,20 @@ export function Prompt({ area, tries, hinted, hint, onHint, onGiveUp, frozen }: 
               ? 'Out of tries'
               : `${left} ${left === 1 ? 'try' : 'tries'} left`}
         </span>
+      </div>
+
+      {/* The slot is always in the layout. On mobile the map takes whatever height
+          the panel leaves, so letting this appear and disappear would resize the
+          band and shift the island out from under the player's next tap. */}
+      <div className="prompt-reaction-slot">
+        {reaction && (
+          <div className="prompt-reaction" key={`${reaction.name}-${tries}`}>
+            <p className="reaction-shout">{reaction.shout}</p>
+            <p className="reaction-line">
+              That one is <strong>{reaction.name}</strong>. {reaction.quip}
+            </p>
+          </div>
+        )}
       </div>
 
       {hinted && hint && <p className="prompt-hint">{hint}</p>}

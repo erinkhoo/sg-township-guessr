@@ -73,3 +73,20 @@ export function gridRef(x: number, y: number, w: number, h: number): string {
 }
 
 export const GRID = { cols: GRID_COLS, rows: GRID_ROWS }
+
+/** Ray casting. Ring is [lon, lat] pairs, first vertex repeated or not. */
+export function pointInRing(pt: [number, number], ring: number[][]): boolean {
+  const [x, y] = pt
+  let hit = false
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i]
+    const [xj, yj] = ring[j]
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) hit = !hit
+  }
+  return hit
+}
+
+/** True when the point is inside the outer ring and outside every hole. */
+export function pointInPolygon(pt: [number, number], polygon: number[][][]): boolean {
+  return pointInRing(pt, polygon[0]) && !polygon.slice(1).some((h) => pointInRing(pt, h))
+}

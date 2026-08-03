@@ -434,12 +434,36 @@ button {
 .crumb:hover {
   color: var(--bone-2);
 }
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
 .topbar-mode {
   font-family: var(--font-mono);
   font-size: 10.5px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: var(--muted);
+}
+.sound-toggle {
+  background: rgba(15, 37, 44, 0.8);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-sm);
+  padding: 5px 9px;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  cursor: pointer;
+}
+.sound-toggle[aria-pressed='true'] {
+  color: var(--gold);
+  border-color: rgba(242, 193, 78, 0.4);
+}
+.sound-toggle:hover {
+  border-color: var(--muted);
 }
 
 /* --- rail ----------------------------------------------------------------- */
@@ -526,6 +550,83 @@ button {
 }
 .prompt-tries[data-warn] .prompt-tries-text {
   color: #e8836d;
+}
+
+/* wrong-click reaction: the shout, then who you actually hit */
+.prompt-reaction-slot:empty {
+  display: none;
+}
+.prompt-reaction {
+  margin-top: 11px;
+  padding: 9px 11px;
+  border-left: 2px solid var(--red);
+  background: rgba(212, 46, 18, 0.11);
+  animation: reactionIn 260ms var(--ease);
+}
+@keyframes reactionIn {
+  from {
+    opacity: 0;
+    transform: translateX(-5px);
+  }
+}
+.reaction-shout {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 800;
+  font-variation-settings: 'wdth' 112;
+  letter-spacing: -0.012em;
+  color: #ff7a5c;
+}
+.reaction-line {
+  margin: 3px 0 0;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--bone);
+}
+.reaction-line strong {
+  color: var(--bone-2);
+  font-weight: 700;
+}
+
+/* the same shout, thrown onto the map where the misclick landed */
+.shout text {
+  fill: #ff7a5c;
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 850;
+  font-variation-settings: 'wdth' 112;
+  letter-spacing: -0.02em;
+  text-anchor: middle;
+  paint-order: stroke;
+  stroke: rgba(10, 26, 31, 0.92);
+  stroke-width: 5px;
+  stroke-linejoin: round;
+  pointer-events: none;
+  /* without fill-box the scale would pivot on the SVG origin, not the word */
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: shoutIn 1500ms var(--ease) forwards;
+}
+@keyframes shoutIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.7);
+  }
+  14% {
+    opacity: 1;
+    transform: translateY(0) scale(1.06);
+  }
+  22% {
+    transform: translateY(0) scale(1);
+  }
+  72% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-14px) scale(1);
+  }
 }
 
 .prompt-hint {
@@ -1155,6 +1256,27 @@ button {
   .prompt-actions {
     margin-top: 10px;
   }
+  /* Fixed slot: the band below must not change height mid-round. The margin
+     lives on the slot, not the panel, or filled and empty differ by exactly it. */
+  .app[data-screen='play'] .prompt-reaction-slot {
+    height: 84px;
+    margin-top: 11px;
+  }
+  .app[data-screen='play'] .prompt-reaction-slot:empty {
+    display: block;
+  }
+  .prompt-reaction {
+    margin-top: 0;
+    height: 84px;
+    overflow: hidden;
+  }
+  .reaction-line {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
   .btn {
     padding: 10px 13px;
   }
@@ -1209,4 +1331,10 @@ button {
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
   }
+}
+
+.start-foot-actions {
+  display: flex;
+  gap: 18px;
+  align-items: baseline;
 }

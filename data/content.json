@@ -2,7 +2,7 @@
  {
   "id": "cc",
   "name": "Central Water Catchment",
-  "blurb": "Zero HDB blocks, zero coffee shops, and the only postcode in Singapore where most of the residents have tails. Weekends belong to the MacRitchie boardwalk and the TreeTop Walk, 250 metres of swaying suspension bridge that quickly separates the confident from the quiet. Turn up at 6am and a wild boar will cross the trail ahead of you like it pays the conservancy charge.",
+  "blurb": "Zero HDB blocks, zero coffee shops, and the only planning area where most of the residents have tails. The whole Mandai wildlife precinct is in here, Zoo and Night Safari included, which surprises everyone who assumes it belongs to the area next door. Weekends belong to the MacRitchie boardwalk and the TreeTop Walk, 250 metres of swaying suspension bridge that quickly separates the confident from the quiet.",
   "hint": "Sprawling green block between Bukit Timah and Upper Thomson, no houses.",
   "fact": "The reserve spans about 2,880 hectares and holds four reservoirs: MacRitchie, Upper Peirce, Lower Peirce and Upper Seletar."
  },
@@ -37,16 +37,16 @@
  {
   "id": "sb",
   "name": "Sembawang",
-  "blurb": "The British ran their naval base here, King George VI Dry Dock and all, the largest in the world when it opened in 1938, then handed the lot over for a token one dollar in 1968. Now the draw is the hot spring park, where people queue with cartons of eggs and soak their feet in water hot enough to cook breakfast, shiok in a way that makes no sense in this climate. The black and white officers' bungalows still line the old roads, rented out and quietly expensive.",
+  "blurb": "The British ran their naval base here, King George VI Dry Dock and all, the largest in the world when it opened in 1938, then handed the lot over for a token one dollar in 1968. The black and white officers' bungalows still line the old roads, rented out and quietly expensive, and Sembawang Park keeps the last stretch of natural beach on the north coast. The hot spring everybody associates with the name is actually across the boundary in Mandai.",
   "hint": "North coast next to Woodlands, on the North-South MRT line.",
-  "fact": "Sembawang Hot Spring, discovered in 1908, is Singapore's only public natural hot spring."
+  "fact": "The former British naval base at Sembawang was handed to Singapore in 1968 for a token one dollar."
  },
  {
   "id": "md",
   "name": "Mandai",
-  "blurb": "Four parks off one road: the Zoo, Night Safari, River Wonders, and Bird Paradise, which took over from Jurong Bird Park in 2023. That same road runs to the crematorium, so a Sunday out here means one stream of families pushing strollers and one stream dressed in black. Confirm you must leave before 9am, or the carpark queue will teach you a patience you never asked for.",
-  "hint": "North-central, ringing Upper Seletar Reservoir, home to Singapore's zoo.",
-  "fact": "Bird Paradise opened on 8 May 2023, replacing Jurong Bird Park, home to over 3,500 birds."
+  "blurb": "Everybody thinks this is where the zoo is. It is not: the Zoo, Night Safari, River Wonders and Bird Paradise all sit just over the line in the Central Water Catchment. What Mandai actually holds is a furniture and industrial estate, the road everybody drives through to get to the animals, and, against all reason, Sembawang Hot Spring Park.",
+  "hint": "North-central strip along the road to the wildlife parks.",
+  "fact": "Sembawang Hot Spring Park lies inside the Mandai planning area, not Sembawang."
  },
  {
   "id": "sm",
@@ -86,7 +86,7 @@
  {
   "id": "bl",
   "name": "Boon Lay",
-  "blurb": "Jurong Bird Park sat on Jurong Hill here for over 50 years before packing up for Mandai in 2023, and a whole generation still hears this name and pictures flamingos and the penguin feed. What is actually on the ground now is shipyards, Jurong Port and factories, because the Boon Lay everyone shops and eats at, MRT station included, is technically next door in Jurong West. Barely anybody lives inside the real boundary, which makes this the rare town centre that exists somewhere else entirely.",
+  "blurb": "Jurong Bird Park sat on Jurong Hill here for over 50 years before packing up for Mandai in 2023, and a whole generation still hears this name and pictures flamingos and the penguin feed. What is actually on the ground now is shipyards, dry docks and factories, because the Boon Lay everyone shops and eats at, MRT station included, is technically next door in Jurong West. Barely anybody lives inside the real boundary, which makes this the rare town centre that exists somewhere else entirely.",
   "hint": "Industrial coast south of Jurong West, shipyards and the old bird park.",
   "fact": "Jurong Bird Park operated in Boon Lay for over 50 years until its closure in January 2023."
  },
@@ -135,9 +135,9 @@
  {
   "id": "bp",
   "name": "Bukit Panjang",
-  "blurb": "The LRT takes the scenic route to Senja in a single carriage, and the local sport is arguing whether walking would have been faster. Hillion Mall stacked buses, MRT and LRT into one building in 2017 and ended decades of sprinting between platforms in the rain. On the far side of the estate the nature reserve begins, so a morning run gets you from void deck to primary rainforest in about ten minutes.",
+  "blurb": "This is the area that quietly owns the highest ground in Singapore: Bukit Timah Hill, all 163.63 metres of it, and the nature reserve around it are both inside Bukit Panjang, not the area they are named after. Down at street level it is the LRT taking the scenic route to Senja in a single carriage, with Hillion Mall stacked on top of the interchange.",
   "hint": "Downtown Line terminus with its own LRT loop, near Choa Chu Kang.",
-  "fact": "Bukit Panjang's Integrated Transport Hub, Singapore's ninth, opened in September 2017 linking Hillion Mall, MRT and LRT."
+  "fact": "Bukit Timah Hill, 163.63 metres and Singapore's highest natural point, sits in the Bukit Panjang planning area."
  },
  {
   "id": "qt",
@@ -149,9 +149,9 @@
  {
   "id": "bt",
   "name": "Bukit Timah",
-  "blurb": "The highest ground in the country tops out at 163.63 metres, ringed by Good Class Bungalows, embassy hedging and the last patch of primary rainforest on the island. The racecourse ran here from 1933 to 1999 and the old grandstand still stands at Turf City, waiting on a redevelopment everybody can see coming. Ngee Ann Poly students trudging up Clementi Road provide the only foot traffic not wearing running shoes.",
+  "blurb": "The hill is not here. Bukit Timah Hill and the nature reserve sit next door in Bukit Panjang, which catches out almost everybody. What this area actually is: the Good Class Bungalow belt, embassy hedging along Holland Road, Sixth Avenue, and Beauty World Centre still doing a roaring trade in cai fan under a shopping centre nobody has ever called new.",
   "hint": "Central area around Singapore's highest hill, near Holland Road.",
-  "fact": "Bukit Timah Hill stands 163.63 metres above sea level, the highest natural point in Singapore."
+  "fact": "Bukit Timah Hill and Bukit Timah Nature Reserve fall inside the Bukit Panjang planning area, not Bukit Timah."
  },
  {
   "id": "ne",
@@ -366,7 +366,7 @@
  {
   "id": "or",
   "name": "Orchard",
-  "blurb": "A little over two kilometres of malls built on top of the nutmeg and pepper orchards that gave the road its name. ION and Tangs hold one end, Emerald Hill's Peranakan shophouses hold the other, and the Istana sits behind its gates in the middle, open to the public about five days a year. Every tourist photograph of Singapore that is not Marina Bay was taken somewhere on this street.",
+  "blurb": "A little over two kilometres of malls built on top of the nutmeg and pepper orchards that gave the road its name. ION and Tangs hold one end, Emerald Hill's Peranakan shophouses hold the other, and the stretch in between changes its shopfronts faster than anyone can keep track of. Every tourist photograph of Singapore that is not Marina Bay was taken somewhere on this street.",
   "hint": "Singapore's main shopping belt between Tanglin and Newton, Istana inside.",
   "fact": "Tangs department store, founded in 1932 by C.K. Tang, still anchors Orchard Road with its distinctive green-tiled roof."
  },
